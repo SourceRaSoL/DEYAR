@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/korpica
+cd $HOME/DEYAR
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x korpica
+chmod +x DEYAR
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr korpica.lua
+rm -fr DEYAR.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/korapica-Team/korpica/master/korpica.lua"
+wget "https://raw.githubusercontent.com/SourceRaSoL/DEYAR/master/DEYAR.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd korpica
+cd DEYAR
 rm -rf luarocks*
 lua start.lua
 
