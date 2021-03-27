@@ -71,7 +71,7 @@ RunDEYAR:write([[
 cd $HOME/DEYAR
 token="]]..database:get(Server_DEYAR.."Token_DEYAR")..[["
 rm -fr DEYAR.lua
-wget "https://raw.githubusercontent.com/korapica-Team/korpica/master/DEYAR.lua"
+wget "https://raw.githubusercontent.com/SourceRaSoL/DEYAR/master/DEYAR.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./DEYAR.lua -p PROFILE --bot=$token
